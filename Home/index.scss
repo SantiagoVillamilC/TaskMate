@@ -1,0 +1,69 @@
+//variables colores
+$fondoClaro: #F4F4F4;
+$elementosClaros: #FCFCFC;
+$fondoOscuro: #121315;
+$elementosOscuros: #191D20;
+
+$verde: #31AB5F;
+$amarillo: #F3A33B;
+$rojo: #EB4A1A;
+$violeta: #BB7DDE;
+$gris: #4D5358;
+
+//medidas
+$redondeoExterno: 20px;
+$redondeoInterno: 10px;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: $fondoClaro;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    margin-top: 0.2rem;
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        background-color: $elementosClaros;
+        height: 100%;
+        width: 50%;
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 0 $redondeoExterno $redondeoExterno;
+
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5rem;
+        }
+    }
+}
+
+header{
+    // padding-top: 10vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-size: 2rem;
+    }
+    h1{
+        font-size: 15rem;
+    }
+}
