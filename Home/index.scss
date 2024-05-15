@@ -67,3 +67,20 @@ header{
         font-size: 15rem;
     }
 }
+
+section{
+    margin: 0 3rem;
+}
+
+.sectionFunction{
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+    ol{
+        margin-top: 1rem;
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
